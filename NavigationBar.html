@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Navigation Bar</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body style="padding-top: 70px;">
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+	<div class="container">
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="navbar-collapse collapse" id="collapsibleNavbar">
+    <ul class="nav navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Info</a>
+        <div class="dropdown-menu">
+        	<a class="dropdown-item" href="#">Info 1</a>
+        	<a class="dropdown-item" href="#">Info 2</a>
+        	<a class="dropdown-item" href="#">Info 3</a>
+      	</div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>   
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact Us</a>
+      </li> 
+       <li class="nav-item">
+       	<form class="form-inline" action="#">
+    	<input class="form-control mr-sm-2" type="text" placeholder="Search">
+    	<button class="btn btn-warning" type="submit"><span class="fa fa-search"></span> Search</button>
+  		</form>
+      </li>  
+    </ul>
+  </div>  
+  </div>
+</nav>
+
+<div class="container-fluid" >
+  <div class="row">
+	<div class="col-md-12" >	
+    <h1> Give Heading</h1>
+      <p class="text-justify text-info">
+    		Cricket is a bat-and-ball game played between two teams of eleven players on a field at the centre of which is a 20-metre (22-yard) pitch with a wicket at each end, each comprising two bails balanced on three stumps. The batting side scores runs by striking the ball bowled at the wicket with the bat, while the bowling and fielding side tries to prevent this and dismiss each batter (so they are "out"). Means of dismissal include being bowled, when the ball hits the stumps and dislodges the bails, and by the fielding side catching the ball after it is hit by the bat, but before it hits the ground. When ten batters have been dismissed, the innings ends and the teams swap roles. The game is adjudicated by two umpires, aided by a third umpire and match referee in international matches. They communicate with two off-field scorers who record the match's statistical information.
+
+	 </p>
+  </div>
+<div class="col-lg-4"> 
+  <h1>Add Text And Links</h1>
+    <p class="text-justify text-info">
+      <p1>
+      Cricket is a bat-and-ball game played between two teams of eleven players on a field at the centre of which is a 20-metre (22-yard) pitch with a wicket at each end, each comprising two bails balanced on three stumps. The batting side scores runs by striking the ball bowled at the wicket with the bat, while the bowling and fielding side tries to prevent this and dismiss each batter (so they are "out"). Means of dismissal include being bowled, when the ball hits the stumps and dislodges the bails, and by the fielding side catching the ball after it is hit by the bat, but before it hits the ground. When ten batters have been dismissed, the innings ends and the teams swap roles. The game is adjudicated by two umpires, aided by a third umpire and match referee in international matches. They communicate with two off-field scorers who record the match's statistical information.
+      For more information click on the button
+      <a href="https://en.wikipedia.org/wiki/Cricket" class="btn btn-info ">click here to find more</a>
+    </p>
+    <p class="text-justify text-info">
+      Latest cricket news
+      <a href="https://www.espncricinfo.com/" class="btn btn-success">click here for latest updates</a>
+  </p>
+  </div>
+<div class="col-lg-4"><h1>Add Text And images</h1>
+ <p class="text-justify text-info">
+  Cricket is a bat-and-ball game played between two teams of eleven players on a field at the centre of which is a 20-metre (22-yard) pitch with a wicket at each end, each comprising two bails balanced on three stumps. The batting side scores runs by striking the ball bowled at the wicket with the bat, while the bowling and fielding side tries to prevent this and dismiss each batter (so they are "out").
+  <img src = "img/eden.jpeg" class = "img-responsive" width = "100%">
+  <img src=" img/pitch.png" class ="img-responsive" width="100%">
+</p>
+</div>
+	<div class="col-lg-4">
+		<h2>Form Design Using Bootstrap</h2>
+		<form action="#">
+  		<div class="form-group">
+    		<label for="uname">Username</label>
+    		<input type="uname" class="form-control" placeholder="Enter user name" id="uname">
+  		</div>
+  		<div class="form-group">
+    		<label for="pwd">Password:</label>
+    		<input type="password" class="form-control" placeholder="Enter password" id="pwd">
+  		</div>
+  		<div class="form-group form-check">
+    		<label class="form-check-label">
+      		<input class="form-check-input" type="checkbox"> Remember me
+    		</label>
+  		</div>
+  			<button type="submit" class="btn btn-warning">Submit</button>
+		</form>
+	</div>	
+</div>
+</body>
+</html>
